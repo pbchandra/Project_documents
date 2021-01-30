@@ -1,0 +1,67 @@
+
+.bgi {
+position: fixed;
+background-image: url(img/bgi.png);
+background-repeat: no-repeat;
+background-position:center  ;
+    
+height: 100%;
+width: 100%;
+
+}
+.bgc {
+position: fixed;
+background-color: rgba(14, 181, 255, 0.58);
+background-repeat: no-repeat;
+background-position:center  ;
+    
+height: 100%;
+width: 100%;
+
+}
+
+
+.gap {
+ position:fixed;
+    left:30%;
+    top:44%;
+
+}
+.middle {
+    position:fixed;
+    left:35%;
+    top:5%;
+    text-transform: uppercase;
+   
+
+
+}
+.gap1 {
+ position:fixed;
+    right:30%;
+    top:44%;
+
+}
+
+.ion-icon{
+    font-size: 64px;
+    
+}
+h1{
+    cursor: pointer;
+}
+
+
+img{
+    position: fixed;
+    right: 10%;
+    top: 10%;
+    height: 500px;
+    width: 500px;
+   border-style: solid;
+  border-color: #92a8d1;
+}
+::selection {
+  color: #fff;
+  background: #000;
+}

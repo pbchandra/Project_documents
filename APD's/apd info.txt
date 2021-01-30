@@ -1,0 +1,45 @@
+Software requirment specification
+software design specification
+Application Implementation
+ApplicationTesting
+
+
+
+
+Steganography is the practice of hiding private 
+or sensitive information within something that appears to be nothing out to the usual
+
+This technique is chosen, because this system includes not only imperceptibility 
+but also un-delectability by any steganolysis tool.
+
+Steganography is a technique of hiding information in digital media.
+In contrast to cryptography, it is not to keep others from knowing the hidden information,
+but it is to keep others from thinking that the information even exists.
+Scope:-
+a combination of cryptographic encryption and steganography encryption for its implementation
+overview
+The word steganography comes from the Greek
+ “Seganos”,which mean covered or secret and – “graphy” mean writing or drawing. 
+Therefore, steganography means, literally, covered writing
+
+
+Cover Object
+stigno Object
+stego key
+message (plain text, cipher text, other image, or anything)
+an image to a computer is just a stream of bytes.
+Each byte is composed of 8-bits, and each bit is capable of storing one value,
+ either ‘0’ or ‘1’ which we all know as ASCII standard. 
+The ASCII standard is an 8-bit character set which has 256 (28 ) characters that form text. Among those 256 characters, only few are readable and printable
+
+process:-
+The last bit of each interpreted byte of all the pixels is replaced with one bit of information that is to be inserted. 
+In the same way, each and every bit of information that are be hidden is inserted into available pixels of the cover image till the end of information.
+
+Threshold value
+Types of steganography
+Least Significant Bit (LSB) substitution
+
+transparency
+robustness
+tamper resistance

@@ -1,0 +1,27 @@
+128 and 256 bits (16 or 32 bytes)
+Unicode is an information technology (IT) standard for the consistent encoding,
+representation, and handling of text expressed in most of the world's writing systems.
+Unicode charector set
+Unicode Transformation Format UTF-8	
+Universal Coded Character Set (UCS)
+A character in UTF8 can be from 1 to 4 bytes long. 
+UTF-8 can represent any character in the Unicode standard.
+UTF-8 is backwards compatible with ASCII. 
+UTF-8 is the preferred encoding for e-mail and web pages
+ord()-returns the ordinal value of its argument.
+ord() function in Python accepts a string of length 1 as an argument and returns the unicode code point representation of the passed argument.
+For example ord('B') returns 66 which is a unicode code point value of character ‘B’. 
+The first 128 Unicode code point values are the same as ASCII
+The chr() function in Python accepts an integer which is a unicode code point and converts it into a string representing a character.
+chr(47) out put: /
+
+non pritable ascii values : 0 to 31
+
+ord
+string --> unicode(ascii)
+chr
+unicode(ascii) --> string
+
+Code Points
+A code point is the value that a character is given in the Unicode standard.
+The values according to Unicode are written as hexadecimal numbers and have a prefix of U+.
